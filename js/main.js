@@ -54,7 +54,7 @@ $(document).ready(function() {
     });
 
     // Form submission (for demonstration)
-    $('#contactForm').on('submit', function(e) {
+   /* $('#contactForm').on('submit', function(e) {
         e.preventDefault();
         
         // Get form values
@@ -74,7 +74,7 @@ $(document).ready(function() {
         } else {
             alert('Please fill in all fields.');
         }
-    });
+    });*/
 
     // Add subtle animations to elements when they come into view
     const animateElements = function() {

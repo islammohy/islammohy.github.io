@@ -401,6 +401,21 @@
                         </div>
                     </div>
                 </div>
+                <div class="timeline-item">
+                    <div class="timeline-badge">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h3>Bachelor's Degree in Agricultural Engineering</h3>
+                            <h4>Al-Azhar University</h4>
+                            <p><i class="fas fa-calendar-alt"></i> 2001 - 2005</p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Study agricultural machinery, irrigation systems, food processing, and environmental control.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -415,12 +430,12 @@
                 <div class="col-lg-6 mb-4">
                     <div class="cert-card">
                         <div class="cert-icon">
-                            <i class="fas fa-certificate"></i>
+                            <i class="fas fa-award"></i>
                         </div>
                         <div class="cert-content">
-                            <h3>Unity Certified Developer</h3>
-                            <p>Unity Technologies</p>
-                            <p><i class="fas fa-calendar-alt"></i> 2019</p>
+                            <h3>Huawei HMS App Innovation Contest</h3>
+                            <p>Huawei</p>
+                            <p><i class="fas fa-calendar-alt"></i> 2021</p>
                         </div>
                     </div>
                 </div>
@@ -430,8 +445,20 @@
                             <i class="fas fa-certificate"></i>
                         </div>
                         <div class="cert-content">
-                            <h3>Google Developer Certification</h3>
-                            <p>Google</p>
+                            <h3>Flutter Advanced - Clean Architecture & MVVM</h3>
+                            <p>Udemy</p>
+                            <p><i class="fas fa-calendar-alt"></i> 2024</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="cert-content">
+                            <h3>Clean Architecture In Flutter 3</h3>
+                            <p>Udemy</p>
                             <p><i class="fas fa-calendar-alt"></i> 2018</p>
                         </div>
                     </div>
@@ -439,11 +466,24 @@
                 <div class="col-lg-6 mb-4">
                     <div class="cert-card">
                         <div class="cert-icon">
-                            <i class="fas fa-award"></i>
+                            <i class="fas fa-certificate"></i>
                         </div>
                         <div class="cert-content">
-                            <h3>Best Educational App Award</h3>
-                            <p>EdTech Summit</p>
+                            <h3>Flutter & Firebase: Build E-commerce & Admin App</h3>
+                            <p>Udemy</p>
+                            <p><i class="fas fa-calendar-alt"></i> 2020</p>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-lg-6 mb-4">
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="cert-content">
+                            <h3>TOEFL</h3>
+                            <p>Cairo University</p>
                             <p><i class="fas fa-calendar-alt"></i> 2020</p>
                         </div>
                     </div>
@@ -454,9 +494,9 @@
                             <i class="fas fa-certificate"></i>
                         </div>
                         <div class="cert-content">
-                            <h3>AWS Certified Developer</h3>
-                            <p>Amazon Web Services</p>
-                            <p><i class="fas fa-calendar-alt"></i> 2019</p>
+                            <h3>Fundamentals of Digital Transformation Certificate</h3>
+                            <p>Center of Knowledge and E-Services, CLT Cairo University</p>
+                            <p><i class="fas fa-calendar-alt"></i> 2022</p>
                         </div>
                     </div>
                 </div>
@@ -622,18 +662,23 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="contact-form">
-                        <form id="contactForm">
-                            <div class="mb-3">
-                                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
-                            </div>
-                            <div class="mb-3">
-                                <input type="email" class="form-control" id="email" placeholder="Your Email" required>
-                            </div>
-                            <div class="mb-3">
-                                <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        <form id="contactForm"
+                            action="https://formspree.io/f/mwpobwny"
+                            method="POST">
+                        <div class="mb-3">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <!-- optional: set your email subject -->
+                        <input type="hidden" name="_subject" value="New message from portfolio site">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
                         </form>
+
                     </div>
                 </div>
             </div>
